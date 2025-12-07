@@ -3,7 +3,7 @@ body {
     margin: 0;
     background: linear-gradient(30deg,rgb(18, 17, 51) 0%, rgb(96, 88, 145) 33%,rgb(18, 17, 51) 67%, rgb(96, 88, 145) 100%);
     background-size: 1050%, 1050%;
-    animation: line 10s ease-in infinite;
+    animation: line 9s ease-in infinite;
 }
 
 @keyframes line {
