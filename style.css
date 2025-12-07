@@ -1,11 +1,25 @@
 
 body {
-    
     background-repeat: no-repeat;
     margin: 0;
-    background: linear-gradient(195.66deg, rgba(0, 0, 0, 0) 0%, rgba(105, 105, 105, 0.326442) 47.12%, rgba(0, 0, 0, 0.7) 100%), linear-gradient(15.66deg, rgba(0, 0, 0, 0) 0%, rgba(119, 119, 119, 0.307759) 47.12%, rgba(0, 0, 0, 0.7) 100%), linear-gradient(164.34deg, #0D0A47 0%, #1B1498 32.21%, #1B1498 67.31%, #0E0A61 100%);
+    background: linear-gradient(30deg,rgb(18, 17, 51) 5%, rgb(96, 88, 145)25%,rgb(22, 16, 52) 50%,rgb(96, 88, 145) 75%,rgb(18, 17, 51) 100%);
+    background-size: 1300%,1300%;
+    animation: line 20s ease infinite;
 }
-
+@keyframes line{
+    0% {
+        background-position: 0% 50%;
+    }
+    
+    50% {
+        background-position: 100% 50%;
+    }
+    
+    100% {
+        background-position: 0% 50%;
+    }
+    
+}
 .info {
     position: relative;
     width: 84vw;
