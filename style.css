@@ -1,25 +1,21 @@
-
 body {
     background-repeat: no-repeat;
     margin: 0;
-    background: linear-gradient(30deg,rgb(18, 17, 51) 5%, rgb(96, 88, 145)25%,rgb(22, 16, 52) 50%,rgb(96, 88, 145) 75%,rgb(18, 17, 51) 100%);
-    background-size: 1300%,1300%;
-    animation: line 20s ease infinite;
+    background: linear-gradient(30deg,rgb(18, 17, 51) 0%, rgb(96, 88, 145) 33%,rgb(18, 17, 51) 67%, rgb(96, 88, 145) 100%);
+    background-size: 1050%, 1050%;
+    animation: line 10s ease-in infinite;
 }
-@keyframes line{
+
+@keyframes line {
     0% {
-        background-position: 0% 50%;
+        background-position: 0% 0%
     }
-    
-    50% {
-        background-position: 100% 50%;
-    }
-    
+
     100% {
-        background-position: 0% 50%;
+        background-position: 100% 100%
     }
-    
 }
+
 .info {
     position: relative;
     width: 84vw;
